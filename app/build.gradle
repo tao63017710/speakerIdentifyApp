@@ -20,8 +20,6 @@ android {
         // Chaquopy设置python
         python {
             buildPython "E:/Python38/python.exe"
-            // TODO buildPython 需要改为你本地的python路径 并且注意不要上传
-            //buildPython "D:/ProgramData/Anaconda3/python.exe"
             pip {
                 install "numpy"
                 install "tensorflow"
